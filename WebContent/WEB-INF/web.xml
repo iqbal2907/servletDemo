@@ -26,6 +26,11 @@
    <servlet>
   	<servlet-name>XmlServletContext</servlet-name>
   	<servlet-class>org.iqbal.XmlServletContext</servlet-class>
+  	
+  	<init-param>
+  		<param-name>defaultUser</param-name>
+  		<param-value>Ashrafi Iqbal</param-value>
+  	</init-param>
   </servlet>
   <servlet-mapping>
 	  <servlet-name>XmlServletContext</servlet-name>

@@ -35,7 +35,7 @@ public class XmlServletContext extends HttpServlet {
 		pr.println("UserName in req.getParameter() is : " + userName);
 		pr.println("UserName in session.getAttribute() is : " + session.getAttribute("username"));
 		pr.println("UserName in context.setAttribute() is : " + context.getAttribute("username"));
-		pr.println("UserName in getServletConfig().getInitParameter() is : " + getInitParameter("foo"));
+		pr.println("UserName in getServletConfig().getInitParameter() is : " + getInitParameter("defaultUser"));
 
 	}
 }
